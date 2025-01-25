@@ -12,8 +12,7 @@ public class HealthPrograms extends NavigateURL {
 		QuitTobaccoProg.click();
 		assertEquals(driver.getTitle(), "Quit Tobacco - West Florida Area Health Education Center, Inc");
 		driver.navigate().back();
-		// cookies
-		driver.findElement(By.linkText("Agree")).click();
+		
 	}
 
 	@Test(groups = "HealthPrograms", priority = 2)
