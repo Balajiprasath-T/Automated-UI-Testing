@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Homepage">
+	<test thread-count="5" name="Testing Homepage Nav Links">
+		<groups>
+			<run>
+				<include name="Homepage"></include>
+				<include name="Homepage nav Links"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="Test.BaseClass"/>
+			<class name="Test.NavigateURL" />
+			<class name="Test.ValidateAboutSection" />
+			<class name="Test.Validate_CPR_Links" />
+			<class name="Test.Validate_Service_Links" />
+			<class name="Test.Validate_NEWSPage_Link" />
+			<class name="Test.Validate_AccountLink" />
+			<class name="Test.Validate_ContactUs_Link" />
+			<class name="Test.Validate_Program_Section" />
+		</classes>
+	</test> <!-- Testing Homepage Nav Links -->
+</suite> <!-- Homepage -->

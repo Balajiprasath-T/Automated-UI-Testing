@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteAccountLink">
+	<test thread-count="5" name="TestAccountLink">
+
+		<classes>
+			<class name="Test.Validate_AccountLink">
+				<methods>
+					<include name="TestURL"></include>
+					<include name="Loading_AccountLink" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

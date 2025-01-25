@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Cross browser">
+  <test thread-count="4" name="CrossbrowserTest" parallel="methods">
+    <classes>
+      <class name="Test.CrossBrowser_Compatibility"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
