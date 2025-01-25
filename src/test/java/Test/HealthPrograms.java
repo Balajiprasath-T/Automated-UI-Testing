@@ -36,6 +36,8 @@ public class HealthPrograms extends NavigateURL {
 	@Test(groups = "HealthPrograms", priority = 4)
 	public void AHEC_SCHOLARS() {
 		WebElement AHECProg = driver.findElement(By.linkText("AHEC SCHOLARS"));
+		// cookies
+		driver.findElement(By.linkText("Agree")).click();
 		AHECProg.click();
 		assertEquals(driver.getTitle(), "AHEC Scholars - West Florida Area Health Education Center, Inc");
 		driver.navigate().back();
