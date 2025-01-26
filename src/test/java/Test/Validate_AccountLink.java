@@ -63,9 +63,9 @@ public class Validate_AccountLink extends NavigateURL{
 	  WebElement password = driver.findElement(By.id("password"));
 	  WebElement loginBtw = driver.findElement(By.cssSelector("button[name ='login']"));
 	  username.clear();
-	  username.sendKeys("askalsa");
+	  username.sendKeys("askalmo");
 	  password.clear();
-	  password.sendKeys("g?2J?h+*v}iK6j");
+	  password.sendKeys("Goatbrain@23");
 	  loginBtw.click();
 	  
 	  WebElement dashboard = driver.findElement(By.tagName("h2"));
